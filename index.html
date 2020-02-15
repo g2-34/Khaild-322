@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"> 
+  <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+    <head>
+        <title>حساب معدل GPA</title>
+        <link rel="stylesheet" href="Index.css">
+        
+    </head>
+    <body>
+        
+
+        <div class="background" id="bac">
+            <h2 id="h2">حساب معدل GPA</h2>
+            <p class="el">اسم المادة</p>
+            <p class="el">الساعات</p>
+            <p class="el">المعدل</p>
+
+            <div id="courses"></div>
+
+            <p id="add" onclick="add_course()">ضف مادة</p>
+            <p id="remove" onclick="delete_course()">حذف مادة</p>
+            <p id="calculator" onclick="calculate_gpa()">حساب المعدل</p>
+        </div>
+
+        <script src="Index.js"></script>
+    </body>
+</html>
